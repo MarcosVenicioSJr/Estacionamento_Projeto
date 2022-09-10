@@ -17,7 +17,7 @@ namespace EstacionamentoDIO.Models
             Console.Clear();
             Console.WriteLine("Bem vindo ao Estacionamento.");
             Console.WriteLine("Digite aqui sua placa: ");
-            string board = Console.ReadLine();
+            string board = Console.ReadLine().ToLower();
 
             if (board != null)
             {
@@ -28,8 +28,24 @@ namespace EstacionamentoDIO.Models
                 Console.WriteLine("Placa inválida. Digite novamente sua placa: ");
                 addVehicle();
             }
+        }
 
+        public void removeVehicle()
+        {
+            Console.Clear();
+            Console.WriteLine("Digite a placa que você deseja remover: ");
+            string board = Console.ReadLine().ToLower();
 
+            if (cars.Contains(board))
+            {
+                cars.Remove(board);
+            }
+            else
+            {
+                Console.Write("O carro não está estacionado aqui. Digite novamente a placa: ");
+                removeVehicle();
+            }
+            Console.Write("Obrigado por estacionar conosco!");
         }
 
     }
