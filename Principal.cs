@@ -47,5 +47,6 @@ class Principal
                     break;
             }
         }
+        Console.Clear();
     }
 }
