@@ -12,7 +12,7 @@ namespace EstacionamentoDIO.Models
             this.valueInitial = valueInitial;
         }
 
-        public void addVehicle()
+        public void AddVehicle()
         {
             Console.Clear();
             Console.WriteLine("Digite aqui sua placa: ");
@@ -25,11 +25,11 @@ namespace EstacionamentoDIO.Models
             else
             {
                 Console.WriteLine("Placa inválida. Digite novamente sua placa: ");
-                addVehicle();
+                AddVehicle();
             }
         }
 
-        public void removeVehicle()
+        public void RemoveVehicle()
         {
             Console.Clear();
             Console.WriteLine("Digite a placa que você deseja remover: ");
@@ -40,29 +40,29 @@ namespace EstacionamentoDIO.Models
                 Console.Clear();
                 decimal valueTotal = valueHour * valueInitial;
 
-                Console.Write($"O valor do estacionamento é: {valueTotal}");
+                Console.Write($"O valor do estacionamento é: {valueTotal} \n");
                 cars.Remove(board);
             }
             else
             {
                 Console.Write("O carro não está estacionado aqui. Digite novamente a placa: ");
-                removeVehicle();
+                RemoveVehicle();
             }
             Console.Write("Obrigado por estacionar conosco!");
         }
 
-        public void searchVehicle()
+        public void ListVehicle()
         {
-            Console.WriteLine("Digite a placa do seu veículo: ");
-            string board = Console.ReadLine().ToLower();
-
-            if (cars.Contains(board))
+            if (cars.Any())
             {
-                Console.WriteLine($"O carro com a placa: {board}. Está estacionado aqui.");
+                foreach (string vehicle in cars)
+                {
+                    Console.WriteLine("Os veículos estacionados são: " + vehicle);
+                }
             }
             else
             {
-                Console.WriteLine("O seu carro não está aqui. Sinto muito.");
+                Console.WriteLine("Aqui não possue carros estacionados.");
             }
         }
     }

@@ -1,0 +1,15 @@
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\bin\Debug\net6.0\EstacionamentoDIO.exe
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\bin\Debug\net6.0\EstacionamentoDIO.deps.json
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\bin\Debug\net6.0\EstacionamentoDIO.runtimeconfig.json
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\bin\Debug\net6.0\EstacionamentoDIO.dll
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\bin\Debug\net6.0\EstacionamentoDIO.pdb
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.csproj.AssemblyReference.cache
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.AssemblyInfoInputs.cache
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.AssemblyInfo.cs
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.csproj.CoreCompileInputs.cache
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.dll
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\refint\EstacionamentoDIO.dll
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.pdb
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\EstacionamentoDIO.genruntimeconfig.cache
+C:\Users\marco\OneDrive\Área de Trabalho\EstacionamentoDIO\obj\Debug\net6.0\ref\EstacionamentoDIO.dll

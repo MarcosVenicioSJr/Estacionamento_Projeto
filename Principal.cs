@@ -1,9 +1,10 @@
 using EstacionamentoDIO.Models;
+using System.Threading;
 class Principal
 {
     static void Main(string[] args)
     {
-        Console.Write("Seja bem vindo ao sistema de estacionamento!");
+        Console.Write("Seja bem vindo ao sistema de estacionamento! \n");
 
         Console.Write("Digite o valor do estacionamento: ");
         decimal valueInitial = decimal.Parse(Console.ReadLine());
@@ -27,13 +28,22 @@ class Principal
             switch (Console.ReadLine())
             {
                 case "1":
-                    parking.addVehicle();
+                    parking.AddVehicle();
                     break;
                 case "2":
-                    parking.removeVehicle();
+                    parking.RemoveVehicle();
+                    Thread.Sleep(5000);
                     break;
                 case "3":
-                    parking.searchVehicle();
+                    parking.ListVehicle();
+                    Thread.Sleep(5000);
+                    break;
+                case "4":
+                    Console.WriteLine("Até logo!");
+                    display = false;
+                    break;
+                default:
+                    Console.WriteLine("Opção não é válida!");
                     break;
             }
         }
