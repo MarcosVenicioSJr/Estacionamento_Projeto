@@ -15,7 +15,6 @@ namespace EstacionamentoDIO.Models
         public void addVehicle()
         {
             Console.Clear();
-            Console.WriteLine("Bem vindo ao Estacionamento.");
             Console.WriteLine("Digite aqui sua placa: ");
             string board = Console.ReadLine().ToLower();
 
