@@ -48,5 +48,23 @@ namespace EstacionamentoDIO.Models
             Console.Write("Obrigado por estacionar conosco!");
         }
 
+        public void searchVehicle()
+        {
+            Console.WriteLine("Digite a placa do seu veículo: ");
+            string board = Console.ReadLine().ToLower();
+
+            if (cars.Contains(board))
+            {
+                Console.WriteLine($"O carro com a placa: {board}. Está estacionado aqui.");
+            }
+            else
+            {
+                Console.WriteLine("O seu carro não está aqui. Sinto muito.");
+            }
+
+
+
+        }
+
     }
 }
