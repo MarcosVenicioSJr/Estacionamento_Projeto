@@ -38,6 +38,10 @@ namespace EstacionamentoDIO.Models
 
             if (cars.Contains(board))
             {
+                Console.Clear();
+                decimal valueTotal = valueHour * valueInitial;
+
+                Console.Write($"O valor do estacionamento é: {valueTotal}");
                 cars.Remove(board);
             }
             else
@@ -61,10 +65,6 @@ namespace EstacionamentoDIO.Models
             {
                 Console.WriteLine("O seu carro não está aqui. Sinto muito.");
             }
-
-
-
         }
-
     }
 }
