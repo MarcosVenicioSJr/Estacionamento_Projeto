@@ -29,6 +29,12 @@ class Principal
                 case "1":
                     parking.addVehicle();
                     break;
+                case "2":
+                    parking.removeVehicle();
+                    break;
+                case "3":
+                    parking.searchVehicle();
+                    break;
             }
         }
     }
